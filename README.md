@@ -15,8 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<!-- My Profile using Nanotation -->
-## Turtle Start ##
+```
+
 ## TURTLE Notation base Review Template
 ## A derivative (or rendition) of the JSON-LD based Google Review Guide Document
 ## Identified by the hyperlink: https://developers.google.com/webmasters/structured-data/critic-reviews .
@@ -26,6 +26,7 @@ Here are some ideas to get you started:
 ## fr
 
 
+{
 @prefix schema: <http://schema.org/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -96,3 +97,4 @@ schema:mainEntityOf this-doc:, linkedin-page:, facebook-page:, twitter-page: .
     cert:modulus "84b9b4850703ec77a2202c19fa992926f692b2b31641e0162cb9116647e410e88a32bd7174a4cbec56302fdadceafb1c3e503055dba1951c3400a0e3ed83b7b2101f436e94869a44ff22ffc4fb12c3a9f99c234a9bece086e840794106e5fcc2d0e5c3c8a38a86f6b667906290e57e325e7e15c364d50170d49f4c5d151c96e339c34ee57e17a0d9a797536f5988de1515ecd7a2b694e027d084b287d96ca04946b89b8fcef1cac8c4c0addb621290550a5ec0449901b288a6e83ebfb91a25493af4990d5d267fd7bd34f9ba4bfd3ab93ba71d3e20e04b37ba06361f7b4e098a6a5bb26ec9482f2192f4975a4b22a7cd7a53c437223d7f0a765aeedb52cd017d"^^xsd:hexBinary.
   
 ## Turtle End ##
+```
