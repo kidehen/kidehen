@@ -101,7 +101,7 @@ Here are some ideas to get you started:
     }
   ]
 }
-## JSON-LD End##
+## JSON-LD End ##
 
 
 ```
