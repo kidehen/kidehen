@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 ```
-
+## Turtle Start ##
 ## TURTLE Notation base Review Template
 ## A derivative (or rendition) of the JSON-LD based Google Review Guide Document
 ## Identified by the hyperlink: https://developers.google.com/webmasters/structured-data/critic-reviews .
@@ -26,7 +26,6 @@ Here are some ideas to get you started:
 ## fr
 
 
-{
 @prefix schema: <http://schema.org/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
