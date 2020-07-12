@@ -105,5 +105,43 @@ Here are some ideas to get you started:
 
 ## JSON-LD End ##
 
+```
 
+OR Turtle .
+
+```
+## Turtle Start ##
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <#> . 
+
+<> rdf:type foaf:PersonalProfileDocument .
+<> foaf:maker :i .
+<> foaf:primaryTopic :i .
+
+:i rdf:type schema:Person .
+:i rdf:type foaf:Person .
+:i schema:mainEntityOf <> .
+:i schema:mainEntityOf <https://www.facebook.com/kidehen#> .
+:i schema:mainEntityOf <https://www.linkedin.com/in/kidehen#> .
+:i schema:mainEntityOf <https://www.twitter.com/kidehen#> .
+:i schema:name "Kingsley Uyi Idehen" .
+:i owl:sameAs <https://www.facebook.com/kidehen#this> .
+:i owl:sameAs <https://www.linkedin.com/in/kidehen#this> .
+:i owl:sameAs <https://www.twitter.com/kidehen#this> .
+:this rdf:type schema:WebPage .
+:this rdf:type foaf:Document .
+:this dcterms:created "2020-07-12"^^xsd:dateTime .
+:this dcterms:creator :i .
+:this schema:mainEntity :i .
+:this rdfs:name "Kingsley Uyi Idehen's Profile Document" .
+:this foaf:primaryTopic :i .
+
+## Turtle End ##
 ```
