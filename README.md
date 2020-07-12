@@ -17,6 +17,7 @@ Here are some ideas to get you started:
 
 ```
 ## JSON-LD Start ##
+
 {
   "@context": {
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -101,6 +102,7 @@ Here are some ideas to get you started:
     }
   ]
 }
+
 ## JSON-LD End ##
 
 
