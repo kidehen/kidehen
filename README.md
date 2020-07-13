@@ -30,16 +30,29 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "schema": "http://schema.org/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "dcterms": "http://purl.org/dc/terms/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "cert": "http://www.w3.org/ns/auth/cert#"
+    "owl": "http://www.w3.org/2002/07/owl#"
   },
   "@graph": [
     {
       "@id": "",
-      "@type": "foaf:PersonalProfileDocument",
+      "@type": [
+        "foaf:Document",
+        "foaf:PersonalProfileDocument",
+        "schema:WebPage",
+        "schema:CreativeWork"
+      ],
+      "schema:creator": {
+        "@id": "#i"
+      },
+      "schema:dateCreated": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-07-12"
+      },
+      "schema:mainEntity": {
+        "@id": "#i"
+      },
+      "schema:name": "Kingsley Uyi Idehen's Profile Document",
       "foaf:maker": {
         "@id": "#i"
       },
@@ -58,54 +71,27 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
           "@id": ""
         },
         {
-          "@id": "https://www.linkedin.com/in/kidehen#"
+          "@id": "https://www.facebook.com/kidehen/"
         },
         {
-          "@id": "https://www.facebook.com/kidehen#"
+          "@id": "https://www.linkedin.com/in/kidehen/"
         },
         {
-          "@id": "https://www.twitter.com/kidehen#"
+          "@id": "https://www.twitter.com/kidehen/"
         }
       ],
-      "schema:name": {
-        "@type": "rdf:langString",
-        "@value": "Kingsley Uyi Idehen"
-      },
+      "schema:name": "Kingsley Uyi Idehen",
       "owl:sameAs": [
         {
-          "@id": "https://www.linkedin.com/in/kidehen#this"
+          "@id": "https://www.facebook.com/kidehen#this"
         },
         {
-          "@id": "https://www.facebook.com/kidehen#this"
+          "@id": "https://www.linkedin.com/in/kidehen#this"
         },
         {
           "@id": "https://www.twitter.com/kidehen#this"
         }
       ]
-    },
-    {
-      "@id": "https://raw.githubusercontent.com/kidehen/kidehen/master/README.md#this",
-      "@type": [
-        "foaf:Document",
-        "schema:WebPage"
-      ],
-      "dcterms:created": {
-        "@type": "xsd:dateTime",
-        "@value": "2020-07-12"
-      },
-      "dcterms:creator": {
-        "@id": "#i"
-      },
-      "schema:mainEntity": {
-        "@id": "#i"
-      },
-      "rdfs:name": {
-        "@type": "rdf:langString",
-        "@value": "Kingsley Uyi Idehen's Profile Document"
-      },
-      "foaf:primaryTopic": {
-        "@id": "#i"
-      }
     }
   ]
 }
