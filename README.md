@@ -24,7 +24,6 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
 
 ```
 ## JSON-LD Start ##
-## JSON-LD Start ##
 
 {
   "@context": {
