@@ -14,7 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
+- 💬 HTTP, Linked Data, ODBC, JDBC, ADO.NET ...
+- 📫 How to reach me: [@kidehen](http://twitter.com/kidehen) (Twitter) 
 ```
 ## JSON-LD Start ##
 
