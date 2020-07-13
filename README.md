@@ -24,6 +24,7 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
 
 ```
 ## JSON-LD Start ##
+## JSON-LD Start ##
 
 {
   "@context": {
@@ -66,7 +67,7 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
         "schema:Person",
         "foaf:Person"
       ],
-      "schema:mainEntityOf": [
+      "schema:mainEntityOfPage": [
         {
           "@id": ""
         },
@@ -78,6 +79,9 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
         },
         {
           "@id": "https://www.twitter.com/kidehen/"
+        },
+        {
+          "@id": "https://community.openlinksw.com/u/kidehen/"
         }
       ],
       "schema:name": "Kingsley Uyi Idehen",
@@ -90,6 +94,9 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
         },
         {
           "@id": "https://www.twitter.com/kidehen#this"
+        },
+        {
+          "@id": "https://community.openlinksw.com/u/kidehen#this"
         }
       ]
     }
@@ -125,15 +132,17 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 <> schema:name "Kingsley Uyi Idehen's Profile Document" .
 
 # Personal Information 
-:i schema:mainEntityOf <> .
-:i schema:mainEntityOf <https://www.facebook.com/kidehen/> .
-:i schema:mainEntityOf <https://www.linkedin.com/in/kidehen/> .
-:i schema:mainEntityOf <https://www.twitter.com/kidehen/> .
+:i schema:mainEntityOfPage <> .
+:i schema:mainEntityOfPage <https://www.facebook.com/kidehen/> .
+:i schema:mainEntityOfPage <https://www.linkedin.com/in/kidehen/> .
+:i schema:mainEntityOfPage <https://www.twitter.com/kidehen/> .
+:i schema:mainEntityOfPage <https://community.openlinksw.com/u/kidehen/> . 
 :i rdf:type schema:Person, foaf:Person .
 :i schema:name "Kingsley Uyi Idehen" .
 :i owl:sameAs <https://www.facebook.com/kidehen#this> .
 :i owl:sameAs <https://www.linkedin.com/in/kidehen#this> .
 :i owl:sameAs <https://www.twitter.com/kidehen#this> .
+:i owl:sameAs <https://community.openlinksw.com/u/kidehen#this> . 
 
 # Crypto Information for Encoding Information that can only be read by me 
 
