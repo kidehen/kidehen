@@ -126,14 +126,16 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 
 # Personal Information 
 :i schema:mainEntityOf <> .
-:i schema:mainEntityOf <https://www.facebook.com/kidehen#> .
-:i schema:mainEntityOf <https://www.linkedin.com/in/kidehen#> .
-:i schema:mainEntityOf <https://www.twitter.com/kidehen#> .
+:i schema:mainEntityOf <https://www.facebook.com/kidehen/> .
+:i schema:mainEntityOf <https://www.linkedin.com/in/kidehen/> .
+:i schema:mainEntityOf <https://www.twitter.com/kidehen/> .
 :i rdf:type schema:Person, foaf:Person .
 :i schema:name "Kingsley Uyi Idehen" .
 :i owl:sameAs <https://www.facebook.com/kidehen#this> .
 :i owl:sameAs <https://www.linkedin.com/in/kidehen#this> .
 :i owl:sameAs <https://www.twitter.com/kidehen#this> .
+
+# Crypto Information for Encoding Information that can only be read by me 
 
 ## Turtle End ##
 ```
