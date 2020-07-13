@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 - 🔭 I’m currently working on the free flow of data across personal and enterprise data spaces, without comprising platform independence, performance, or privacy. 
 
-Here is an example of a personal profile document, using ## JSON-LD Notaton ## that's crucial to that effort. 
+Here is an example of a personal profile document, using #JSON-LD Notaton# that's crucial to that effort. 
 
 ```
 ## JSON-LD Start ##
