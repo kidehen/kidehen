@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 - 🔭 I’m currently working on the free flow of data across personal and enterprise data spaces, without comprising platform independence, performance, or privacy. 
 
-Here is an example of a personal profile document that's crucial to that effort. 
+Here is an example of a personal profile document, using JSON-LD Notaton that's crucial to that effort. 
 
 ```
 ## JSON-LD Start ##
@@ -114,7 +114,7 @@ Here is an example of a personal profile document that's crucial to that effort.
 
 ```
 
-OR Turtle .
+Here is the same Profile Information using RDF-Turtle Notation. 
 
 ```
 ## Turtle Start ##
@@ -126,29 +126,28 @@ OR Turtle .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> . 
 @prefix : <#> . 
 
-<> rdf:type foaf:PersonalProfileDocument .
+# Profile Document Metadata
+<> rdf:type foaf:Document, foaf:PersonalProfileDocument, schema:WebPage, schema:CreativeWork .
 <> foaf:maker :i .
 <> foaf:primaryTopic :i .
+<> schema:mainEntity :i .
+<> schema:dateCreated "2020-07-12"^^xsd:dateTime .
+<> schema:creator :i .
+<> schema:name "Kingsley Uyi Idehen's Profile Document" .
 
-:i rdf:type schema:Person .
-:i rdf:type foaf:Person .
+# Personal Information 
 :i schema:mainEntityOf <> .
 :i schema:mainEntityOf <https://www.facebook.com/kidehen#> .
 :i schema:mainEntityOf <https://www.linkedin.com/in/kidehen#> .
 :i schema:mainEntityOf <https://www.twitter.com/kidehen#> .
+:i rdf:type schema:Person, foaf:Person .
 :i schema:name "Kingsley Uyi Idehen" .
 :i owl:sameAs <https://www.facebook.com/kidehen#this> .
 :i owl:sameAs <https://www.linkedin.com/in/kidehen#this> .
 :i owl:sameAs <https://www.twitter.com/kidehen#this> .
-:this rdf:type schema:WebPage .
-:this rdf:type foaf:Document .
-:this dcterms:created "2020-07-12"^^xsd:dateTime .
-:this dcterms:creator :i .
-:this schema:mainEntity :i .
-:this rdfs:name "Kingsley Uyi Idehen's Profile Document" .
-:this foaf:primaryTopic :i .
 
 ## Turtle End ##
 ```
