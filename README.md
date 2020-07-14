@@ -82,6 +82,10 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
         {
           "@id": "https://community.openlinksw.com/u/kidehen/"
         }
+        ,
+        {
+          "@id": "https://stackoverflow.com/users/213503/kingsley-uyi-idehen/"
+        }
       ],
       "schema:name": "Kingsley Uyi Idehen",
       "owl:sameAs": [
@@ -96,6 +100,10 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
         },
         {
           "@id": "https://community.openlinksw.com/u/kidehen#this"
+        }
+        ,
+        {
+          "@id": "https://stackoverflow.com/users/213503/kingsley-uyi-idehen#this"
         }
       ]
     }
@@ -136,12 +144,14 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 :i schema:mainEntityOfPage <https://www.linkedin.com/in/kidehen/> .
 :i schema:mainEntityOfPage <https://www.twitter.com/kidehen/> .
 :i schema:mainEntityOfPage <https://community.openlinksw.com/u/kidehen/> . 
+:i schema:mainEntityOfPage <https://stackoverflow.com/users/213503/kingsley-uyi-idehen/> . 
 :i rdf:type schema:Person, foaf:Person .
 :i schema:name "Kingsley Uyi Idehen" .
 :i owl:sameAs <https://www.facebook.com/kidehen#this> .
 :i owl:sameAs <https://www.linkedin.com/in/kidehen#this> .
 :i owl:sameAs <https://www.twitter.com/kidehen#this> .
 :i owl:sameAs <https://community.openlinksw.com/u/kidehen#this> . 
+:i owl:sameAs <https://stackoverflow.com/users/213503/kingsley-uyi-idehen#this> . 
 
 # Crypto Information for Encoding Information that can only be read by me 
 
