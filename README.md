@@ -86,6 +86,14 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
         {
           "@id": "https://stackoverflow.com/users/213503/kingsley-uyi-idehen/"
         }
+         ,
+        {
+          "@id": "https://stackoverflow.com/users/213503/kingsley-uyi-idehen/"
+        }
+        ,
+        {
+          "@id": "https://www.quora.com/profile/Kingsley-Uyi-Idehen/"
+        }
       ],
       "schema:name": "Kingsley Uyi Idehen",
       "owl:sameAs": [
@@ -103,7 +111,7 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
         }
         ,
         {
-          "@id": "https://stackoverflow.com/users/213503/kingsley-uyi-idehen#this"
+          "@id": "https://www.quora.com/profile/Kingsley-Uyi-Idehen#this"
         }
       ]
     }
@@ -145,6 +153,7 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 :i schema:mainEntityOfPage <https://www.twitter.com/kidehen/> .
 :i schema:mainEntityOfPage <https://community.openlinksw.com/u/kidehen/> . 
 :i schema:mainEntityOfPage <https://stackoverflow.com/users/213503/kingsley-uyi-idehen/> . 
+:i schema:mainEntityOfPage <https://www.quora.com/profile/Kingsley-Uyi-Idehen/> . 
 :i rdf:type schema:Person, foaf:Person .
 :i schema:name "Kingsley Uyi Idehen" .
 :i owl:sameAs <https://www.facebook.com/kidehen#this> .
@@ -152,6 +161,7 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 :i owl:sameAs <https://www.twitter.com/kidehen#this> .
 :i owl:sameAs <https://community.openlinksw.com/u/kidehen#this> . 
 :i owl:sameAs <https://stackoverflow.com/users/213503/kingsley-uyi-idehen#this> . 
+:i owl:sameAs <https://www.quora.com/profile/Kingsley-Uyi-Idehen#this> . 
 
 # Crypto Information for Encoding Information that can only be read by me 
 
