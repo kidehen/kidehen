@@ -119,6 +119,9 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
         },
         {
           "@id": "https://stackexchange.com/users/74272/kingsley-uyi-idehen#this"
+        },
+        {
+          "@id": "https://stackoverflow.com/users/213503/kingsley-uyi-idehen#this"
         }
       ]
     }
