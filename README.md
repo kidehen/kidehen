@@ -178,4 +178,62 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 # Crypto Information for Encoding Information that can only be read by me 
 
 ## Turtle End ##
+
+## JSON-LD Start ##
+<!-- start json-ld profile 2 -->
+  {
+    "@context": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "schema": "http://schema.org/",
+      "cert": "http://www.w3.org/ns/auth/cert#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "schema": "http://schema.org/"
+    },
+    "@graph": [
+      {
+        "@id": "",
+        "@type": "foaf:PersonalProfileDocument",
+        "foaf:maker": {
+          "@id": "https://github.com/kidehen/kidehen#i"
+        },
+        "foaf:primaryTopic": {
+          "@id": "https://github.com/kidehen/kidehen#i"
+        }
+      },
+      {
+        "@id": "https://github.com/kidehen/kidehen#i",
+        "@type": [
+          "foaf:Person",
+          "schema:Person"
+        ],
+        "cert:key": {
+          "@id": "https://github.com/kidehen/kidehen#PublicKey"
+        },
+        "foaf:name": "Kingsley Uyi Idehen's Profile Document (Github)"
+      },
+      {
+        "@id": "https://github.com/kidehen/kidehen#PublicKey",
+        "@type": "cert:RSAPublicKey",
+        "dcterms:created": {
+          "@type": "xsd:dateTime",
+          "@value": "2020-08-07T19:30:10.534Z"
+        },
+        "dcterms:title": "Created by YouID",
+        "rdfs:label": "Kingsley Uyi Idehen's Profile Document (Github)",
+        "cert:exponent": {
+          "@type": "xsd:int",
+          "@value": "65537"
+        },
+        "cert:modulus": {
+          "@type": "xsd:hexBinary",
+          "@value": "a75b75af5eae39f046af56364c558376ccd1edd4e99ca7ec96565c1f6441acfafa60071aa4799fe67aa76e5064c866cc8d7d47b4ce64fbeb58a97fff61443d868a8e017ffd766614086c51c4ea412b276ddf61adebd7962a0d0f8c5d6ff1d565ed31005ce78ec7733013a34477185d671f5dbcc2b6e93086929b3dee10748194c33a4af8f3535776546d4647b78c4366c8814deff466258a6e1797e4c0ef4902ec35b5cf38693c255045bc4efc7c0ce6d0757d29ac4ec2382ed052eeca19fe09db2f804aa339dffd18906071e23079c36a4c2fe0a075b96d934f5119abcb31b109ebaf1de1aefde0d1bb415e80eb7e321d8caf3bff457eb6ad31c55f3a992217"
+        }
+      }
+    ]
+  }
+
+## JSON-LD End ##
 ```
