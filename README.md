@@ -181,7 +181,7 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 ```
 ```
 ## JSON-LD Start ##
-<!-- start json-ld profile 2 -->
+
   {
     "@context": {
       "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
