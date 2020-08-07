@@ -178,7 +178,8 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 # Crypto Information for Encoding Information that can only be read by me 
 
 ## Turtle End ##
-
+```
+```
 ## JSON-LD Start ##
 <!-- start json-ld profile 2 -->
   {
