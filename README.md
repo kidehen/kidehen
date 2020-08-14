@@ -25,109 +25,59 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
 ```
 ## JSON-LD Start ##
 
-{
-  "@context": {
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "schema": "http://schema.org/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "owl": "http://www.w3.org/2002/07/owl#"
-  },
-  "@graph": [
-    {
-      "@id": "",
-      "@type": [
-        "foaf:Document",
-        "foaf:PersonalProfileDocument",
-        "schema:WebPage",
-        "schema:CreativeWork"
-      ],
-      "schema:creator": {
-        "@id": "#i"
-      },
-      "schema:dateCreated": {
-        "@type": "xsd:dateTime",
-        "@value": "2020-07-12"
-      },
-      "schema:mainEntity": {
-        "@id": "#i"
-      },
-      "schema:name": "Kingsley Uyi Idehen's Profile Document",
-      "foaf:maker": {
-        "@id": "#i"
-      },
-      "foaf:primaryTopic": {
-        "@id": "#i"
-      }
+  {
+    "@context": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "schema": "http://schema.org/",
+      "cert": "http://www.w3.org/ns/auth/cert#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "schema": "http://schema.org/"
     },
-    {
-      "@id": "#i",
-      "@type": [
-        "schema:Person",
-        "foaf:Person"
-      ],
-      "schema:mainEntityOfPage": [
-        {
-          "@id": ""
+    "@graph": [
+      {
+        "@id": "",
+        "@type": "foaf:PersonalProfileDocument",
+        "foaf:maker": {
+          "@id": "https://github.com/kidehen#i"
         },
-        {
-          "@id": "https://www.facebook.com/kidehen/"
-        },
-        {
-          "@id": "https://www.linkedin.com/in/kidehen/"
-        },
-        {
-          "@id": "https://www.twitter.com/kidehen/"
-        },
-        {
-          "@id": "https://community.openlinksw.com/u/kidehen/"
+        "foaf:primaryTopic": {
+          "@id": "https://github.com/kidehen#i"
         }
-        ,
-        {
-          "@id": "https://stackoverflow.com/users/213503/kingsley-uyi-idehen/"
-        }
-         ,
-        {
-          "@id": "https://stackoverflow.com/users/213503/kingsley-uyi-idehen/"
-        }
-        ,
-        {
-          "@id": "https://www.quora.com/profile/Kingsley-Uyi-Idehen/"
-        }
-        ,
-        {
-          "@id": "https://stackexchange.com/users/74272/kingsley-uyi-idehen/"
-        }
-      ],
-      "schema:name": "Kingsley Uyi Idehen",
-      "owl:sameAs": [
-        {
-          "@id": "https://www.facebook.com/kidehen#this"
+      },
+      {
+        "@id": "https://github.com/kidehen#i",
+        "@type": [
+          "foaf:Person",
+          "schema:Person"
+        ],
+        "cert:key": {
+          "@id": "https://github.com/kidehen#PublicKey"
         },
-        {
-          "@id": "https://www.linkedin.com/in/kidehen#this"
+        "foaf:name": "Kingsley Uyi Idehen's Profile Document (Github)"
+      },
+      {
+        "@id": "https://github.com/kidehen#PublicKey",
+        "@type": "cert:RSAPublicKey",
+        "dcterms:created": {
+          "@type": "xsd:dateTime",
+          "@value": "2020-08-14T20:17:45.138Z"
         },
-        {
-          "@id": "https://www.twitter.com/kidehen#this"
+        "dcterms:title": "Created by YouID",
+        "rdfs:label": "Kingsley Uyi Idehen's Profile Document (Github)",
+        "cert:exponent": {
+          "@type": "xsd:int",
+          "@value": "65537"
         },
-        {
-          "@id": "https://community.openlinksw.com/u/kidehen#this"
+        "cert:modulus": {
+          "@type": "xsd:hexBinary",
+          "@value": "d1ba238ac601db8bab06b3e49b999f7d609ae032a6ee16b335af0f0166aae67728f2ca72ed0b00e239f929637b0ec6e45e6713c392188cee3037cdde38835c1846057b2fcf927c350c147fdb26e9dadb9c2009389ac3efd80ac16efe9fb43517d42f8698870fde9678c530f3a0a3795c7d4cc2cb347800bafaa6f126dc9a0352185ade0f67d61f5cdb13a6418d2fe70a4792a0d2f259a0c0f2501a68f115d9fd2501978e5ddf59087e64f0b8e1d556ae8e761347bafc8b807af9124970e61762f9a674a748105887b59c6a8778b3bc5aa60f29ec03e152b393bc7c303040e1dca6f88a1c281bbe3d315df28c74a837c0445753e7906b57ed8c48b06812701c17"
         }
-        ,
-        {
-          "@id": "https://www.quora.com/profile/Kingsley-Uyi-Idehen#this"
-        },
-        {
-          "@id": "https://stackexchange.com/users/74272/kingsley-uyi-idehen#this"
-        },
-        {
-          "@id": "https://stackoverflow.com/users/213503/kingsley-uyi-idehen#this"
-        }
-      ]
-    }
-  ]
-}
-
+      }
+    ]
+  }
 ## JSON-LD End ##
 
 ```
