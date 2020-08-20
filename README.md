@@ -231,12 +231,10 @@ Delegate Credentials for WebID-TLS+Delegation Authentication Protocol
 }
 ## JSON-LD End ##
 ```
-Another Credential Chunk
+Another Credentials Chunk
 
 ```
 ## JSON-LD Start ##
-<!-- start json-ld profile 2 -->
-<script type="application/ld+json">
 
   {
     "@context": {
@@ -291,7 +289,4 @@ Another Credential Chunk
       }
     ]
   }
-  
-</script>
-
 ## JSON-LD End ##
