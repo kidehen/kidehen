@@ -231,3 +231,67 @@ Delegate Credentials for WebID-TLS+Delegation Authentication Protocol
 }
 ## JSON-LD End ##
 ```
+Another Credential Chunk
+
+```
+## JSON-LD Start ##
+<!-- start json-ld profile 2 -->
+<script type="application/ld+json">
+
+  {
+    "@context": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "schema": "http://schema.org/",
+      "cert": "http://www.w3.org/ns/auth/cert#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "schema": "http://schema.org/"
+    },
+    "@graph": [
+      {
+        "@id": "",
+        "@type": "foaf:PersonalProfileDocument",
+        "foaf:maker": {
+          "@id": "https://github.com/kidehen#i"
+        },
+        "foaf:primaryTopic": {
+          "@id": "https://github.com/kidehen#i"
+        }
+      },
+      {
+        "@id": "https://github.com/kidehen#i",
+        "@type": [
+          "foaf:Person",
+          "schema:Person"
+        ],
+        "cert:key": {
+          "@id": "https://github.com/kidehen#PublicKey"
+        },
+        "foaf:name": "Kingsley Uyi Idehen's Profile Document (Github Personal)"
+      },
+      {
+        "@id": "https://github.com/kidehen#PublicKey",
+        "@type": "cert:RSAPublicKey",
+        "dcterms:created": {
+          "@type": "xsd:dateTime",
+          "@value": "2020-08-20T00:14:35.717Z"
+        },
+        "dcterms:title": "Created by YouID",
+        "rdfs:label": "Kingsley Uyi Idehen's Profile Document (Github Personal)",
+        "cert:exponent": {
+          "@type": "xsd:int",
+          "@value": "65537"
+        },
+        "cert:modulus": {
+          "@type": "xsd:hexBinary",
+          "@value": "840dda2d95e5b3eb6f84d9a113a8f7838810a3b03d517291ddafc82a1fa7fbf92bab96ce1065354060d23a1c03e450f802800ff52142b3931ed64d2dc6f300bf27ef87cfcba7695799bb5683f350f4b9f3e3ba1f5d8cac89f7b07eb92f3ba25e00df9f92e5fffb77e27db3a74659fda70e9b20789f8a21a0a4d2e797c353abe5f178ad850f4fa2a2d9f4a9d1763c6ce897f667e3926ea66e570d8ebac78f1c8eedd0d40f2b889b81a769992d044b5f25a52677d0ef15b31eb17de5ecc25d09a1ca694614d040098441860ca5e784e2b8907766298baf6c3edc153bf6bc95944b86833c22e87b6d09278f6c05b69696e13f7e2347c1461024061bc887df088461"
+        }
+      }
+    ]
+  }
+  
+</script>
+
+## JSON-LD End ##
