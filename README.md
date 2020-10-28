@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 - 🔭 I’m currently working on the free flow of data across personal and enterprise data spaces, without comprising platform independence, performance, or privacy. 
 
-- ⚡ Digital Thumbrint: #SHA1 Fingerprint:🛁👩🗻🐍😀♦📎🚎🌑🛂🚜😏👋👸🙉🍗🇺💄🎍😻
+- ⚡ Digital Thumbprint: #SHA1 Fingerprint:🛁👩🗻🐍😀♦📎🚎🌑🛂🚜😏👋👸🙉🍗🇺💄🎍😻
 
 ![Profile views](https://gpvc.arturio.dev/kidehen)
 
