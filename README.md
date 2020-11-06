@@ -19,7 +19,6 @@ Here are some ideas to get you started:
 - 💬 Ask me about ... [Knowledge Graph](https://twitter.com/hashtag/KnowledgeGraph), [Linked Data](https://twitter.com/hashtag/LinkedData), [ODBC](https://twitter.com/hashtag/ODBC), [JDBC](https://twitter.com/hashtag/JDBC), [Data Connectivity](https://twitter.com/hashtag/DataConnectivity), [WebID](https://twitter.com/hashtag/WebID), [Privacy-By-Design](https://twitter.com/hashtag/PrivacyByDesign), [Solid](https://twitter.com/hashtag/SolidHelps), [Read-Write Web](https://twitter.com/hashtag/RWW)
 
 - 🔭 I’m currently working on the free flow of data across personal and enterprise data spaces, without comprising platform independence, performance, or privacy. 
-- ⚡ #SHA1 Fingerprint:C80773380FA5E0D510667D8A4C3BFCC47C2434F4
 - ⚡ #SHA1 Fingerprint:🚬🐜🇮💨💈👉⛺🌻🛁✔💄🎹💾🐶✖😪🍋🐱😢🎻
 
 ![Profile views](https://gpvc.arturio.dev/kidehen)
