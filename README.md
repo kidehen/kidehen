@@ -22,6 +22,7 @@ Here are some ideas to get you started:
 - ⚡ #SHA1 Fingerprint:C80773380FA5E0D510667D8A4C3BFCC47C2434F4
 - ⚡ #SHA1 Fingerprint:🚬🐜🇮💨💈👉⛺🌻🛁✔💄🎹💾🐶✖😪🍋🐱😢🎻
 - ⚡ #SHA1 Fingerprint:💉🍌⚓™✖🚎🔮🌴💰🔬🗿☂👪🔥💰🔪🐷🍭🐰🚀
+- ⚡ #SHA1 Fingerprint:🐨🔨👺🕶🍋🔓💋🚁🛂🙊😺🔪♦☕☀🍗🚀💥➰🇨🇳
 
 ![Profile views](https://gpvc.arturio.dev/kidehen)
 
