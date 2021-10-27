@@ -48,14 +48,14 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
         "@id": "",
         "@type": "foaf:PersonalProfileDocument",
         "foaf:maker": {
-          "@id": "https://github.com/kidehen#i"
+          "@id": "https://github.com/kidehen#netid"
         },
         "foaf:primaryTopic": {
-          "@id": "https://github.com/kidehen#i"
+          "@id": "https://github.com/kidehen#netid"
         }
       },
       {
-        "@id": "https://github.com/kidehen#i",
+        "@id": "https://github.com/kidehen#netid",
         "@type": [
           "foaf:Person",
           "schema:Person"
@@ -63,28 +63,29 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
         "cert:key": {
           "@id": "https://github.com/kidehen#PublicKey"
         },
-        "foaf:name": "Kingsley Uyi Idehen's Profile Document (Github)"
+        "foaf:name": "Kingsley Uyi Idehen (Github Profile)"
       },
       {
         "@id": "https://github.com/kidehen#PublicKey",
         "@type": "cert:RSAPublicKey",
         "dcterms:created": {
           "@type": "xsd:dateTime",
-          "@value": "2020-08-14T20:17:45.138Z"
+          "@value": "2021-10-27T21:23:54.201Z"
         },
         "dcterms:title": "Created by YouID",
-        "rdfs:label": "Kingsley Uyi Idehen's Profile Document (Github)",
+        "rdfs:label": "Kingsley Uyi Idehen (Github Profile)",
         "cert:exponent": {
           "@type": "xsd:int",
           "@value": "65537"
         },
         "cert:modulus": {
           "@type": "xsd:hexBinary",
-          "@value": "d1ba238ac601db8bab06b3e49b999f7d609ae032a6ee16b335af0f0166aae67728f2ca72ed0b00e239f929637b0ec6e45e6713c392188cee3037cdde38835c1846057b2fcf927c350c147fdb26e9dadb9c2009389ac3efd80ac16efe9fb43517d42f8698870fde9678c530f3a0a3795c7d4cc2cb347800bafaa6f126dc9a0352185ade0f67d61f5cdb13a6418d2fe70a4792a0d2f259a0c0f2501a68f115d9fd2501978e5ddf59087e64f0b8e1d556ae8e761347bafc8b807af9124970e61762f9a674a748105887b59c6a8778b3bc5aa60f29ec03e152b393bc7c303040e1dca6f88a1c281bbe3d315df28c74a837c0445753e7906b57ed8c48b06812701c17"
+          "@value": "E26D626260C288E2E3D16B24D4C98D99D51706CC4225A3DEC836ABD81E8A0E2B3F5B477DA035D3BC102BD28326795F49D13C8038C7F2F827520B6CA147CEDE3B846644052ED682BEA64459BD1315C5A5E607ED090EB55A7779292DE472C1602637307D067988DC901E8DA8B809F3AA0450B8F699BF74F34FD9372E643C5D2A1EBC00FDF80CF76B44B1CA22DF494472FBED6F4F15362D9549305D3E490E1D38D0326035216F3323DA726EDA8B1EA617A02357C84D249F0A47A527FCCE929AE8435875B8247EA6455B79CB5390B7AB3509865FC3198AB02BBA7A749FB4F327826E336B4CA8C2E6310EF7B6AC907AAE649DB9F2804126A763084522D3FA067E860D"
         }
       }
     ]
   }
+  
 ## JSON-LD End ##
 
 ```
@@ -134,6 +135,36 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 
 # Crypto Information for Encoding Information that can only be read by me 
 
+## Turtle Start ##
+
+  @prefix : <#>.
+  @prefix cert: <http://www.w3.org/ns/auth/cert#>.
+  @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+  @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+  @prefix dcterms: <http://purl.org/dc/terms/>.
+  @prefix foaf: <http://xmlns.com/foaf/0.1/>.
+  @prefix schema: <http://schema.org/>.
+
+  <>
+    a foaf:PersonalProfileDocument ;
+    foaf:maker <https://github.com/kidehen#netid> ;
+    foaf:primaryTopic <https://github.com/kidehen#netid> .
+
+  <https://github.com/kidehen#netid>
+    a foaf:Person ;
+    a schema:Person ;
+    foaf:name "Kingsley Uyi Idehen (Github Profile)" ;
+    cert:key <https://github.com/kidehen#PublicKey>.
+
+
+  <https://github.com/kidehen#PublicKey>
+    a cert:RSAPublicKey;
+    dcterms:created "2021-10-27T21:23:54.201Z"^^xsd:dateTime;
+    dcterms:title "Created by YouID";
+    rdfs:label "Kingsley Uyi Idehen (Github Profile)";
+    cert:exponent "65537"^^xsd:int;
+    cert:modulus "E26D626260C288E2E3D16B24D4C98D99D51706CC4225A3DEC836ABD81E8A0E2B3F5B477DA035D3BC102BD28326795F49D13C8038C7F2F827520B6CA147CEDE3B846644052ED682BEA64459BD1315C5A5E607ED090EB55A7779292DE472C1602637307D067988DC901E8DA8B809F3AA0450B8F699BF74F34FD9372E643C5D2A1EBC00FDF80CF76B44B1CA22DF494472FBED6F4F15362D9549305D3E490E1D38D0326035216F3323DA726EDA8B1EA617A02357C84D249F0A47A527FCCE929AE8435875B8247EA6455B79CB5390B7AB3509865FC3198AB02BBA7A749FB4F327826E336B4CA8C2E6310EF7B6AC907AAE649DB9F2804126A763084522D3FA067E860D"^^xsd:hexBinary.
+  
 ## Turtle End ##
 ```
 ```
