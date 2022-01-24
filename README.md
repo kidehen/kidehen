@@ -136,7 +136,7 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 :i owl:sameAs <https://stackoverflow.com/users/213503/kingsley-uyi-idehen#this> . 
 :i owl:sameAs <https://www.quora.com/profile/Kingsley-Uyi-Idehen#this> . 
 :i owl:sameAs <https://stackexchange.com/users/74272/kingsley-uyi-idehen#this> . 
-:i owl:sameAs <<https://golden.com/wiki/Kingsley_Uyi_Idehen-VVGXYE#identity> . 
+:i owl:sameAs <https://golden.com/wiki/Kingsley_Uyi_Idehen-VVGXYE#identity> . 
 :i owl:sameAs <https://glitch.com/~kidehen#identity> . 
 :i owl:sameAs <https://kidehen.disha.page/#this> . 
 :i owl:sameAs <https://kidehen.carrd.co/#netid> . 
