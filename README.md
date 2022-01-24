@@ -123,6 +123,10 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 :i schema:mainEntityOfPage <https://stackoverflow.com/users/213503/kingsley-uyi-idehen/> . 
 :i schema:mainEntityOfPage <https://www.quora.com/profile/Kingsley-Uyi-Idehen/> . 
 :i schema:mainEntityOfPage <https://stackexchange.com/users/74272/kingsley-uyi-idehen/> . 
+:i schema:mainEntityOfPage <https://golden.com/wiki/Kingsley_Uyi_Idehen-VVGXYE/> . 
+:i schema:mainEntityOfPage <https://glitch.com/~kidehen/> . 
+:i schema:mainEntityOfPage <https://kidehen.disha.page/> . 
+:i schema:mainEntityOfPage <https://kidehen.carrd.co/> . 
 :i rdf:type schema:Person, foaf:Person .
 :i schema:name "Kingsley Uyi Idehen" .
 :i owl:sameAs <https://www.facebook.com/kidehen#this> .
@@ -132,6 +136,10 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 :i owl:sameAs <https://stackoverflow.com/users/213503/kingsley-uyi-idehen#this> . 
 :i owl:sameAs <https://www.quora.com/profile/Kingsley-Uyi-Idehen#this> . 
 :i owl:sameAs <https://stackexchange.com/users/74272/kingsley-uyi-idehen#this> . 
+:i owl:sameAs <<https://golden.com/wiki/Kingsley_Uyi_Idehen-VVGXYE#identity> . 
+:i owl:sameAs <https://glitch.com/~kidehen#identity> . 
+:i owl:sameAs <https://kidehen.disha.page/#this> . 
+:i owl:sameAs <https://kidehen.carrd.co/#netid> . 
 
 # Crypto Information for Encoding Information that can only be read by me 
 
